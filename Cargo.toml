@@ -1,0 +1,10 @@
+[package]
+name = "sqlite_parameter_test"
+version = "0.1.0"
+authors = ["Julius de Bruijn <bruijn@prisma.io>"]
+edition = "2018"
+
+[dependencies]
+rusqlite = "0.16"
+prisma-query = { git = "https://github.com/prisma/prisma-query.git" }
+rand = "0.6"
