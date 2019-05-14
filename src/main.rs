@@ -1,7 +1,7 @@
 use prisma_query::{ast::*, visitor::*};
 use rusqlite::{Connection, NO_PARAMS};
 
-const IN_SIZE: u16 = 1000; // Change me to test the limits
+const IN_SIZE: u16 = 10000; // Change me to test the limits
 
 fn main() {
     let conn = Connection::open_in_memory().unwrap();
